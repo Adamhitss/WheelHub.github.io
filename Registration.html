@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="Registration.css">
+
+</head>
+
+<body>
+    <div>
+        <nav class="navbar">
+                <img class="logoo" src="/Assets/Logo.png" alt="">
+            <div class="ni"><a class="navbar-link" href="Main.Html">Home</a></div>
+            <div class="ni"><a class="navbar-link" href="Promotion.Html">Promotion</a></div>
+            <div class="ni"><a class="navbar-link" href="AllCars.Html">AllCars</a></div>
+
+            <div class="ni dropdown">
+                <a href="" class="navbar-link">Registration <img class="arro" src="/Assets/ui/down_down_arrow.png" alt=""></a>
+            <div class="dropdown-menu">
+                 <div class="dropdown-item">
+                    <a href="Register.Html" class="dropdown-link">Sign Up</a>
+                  <div class="dropdown-item">
+                      <a href="" class="dropdown-link">Sign In</a>
+                  </div>
+                 </div>
+
+            </div></div>
+            <div class="ni"><a href="" class="navbar-link">AboutUs</a></div>
+        </nav>
+    </div>
+
+</div>
+
+
+      <div class="dlm">
+        <div class="Form-1">
+            <Form action="Main.Html" name="" onsubmit="return validate()" class="Form">
+                <h1>Register WheelHub</h1>
+                <label for="username">Name:</label><br>
+                <input type="text" name="username" id="username" placeholder="Username"> <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" class="" placeholder="Email"><br><br>
+
+                <label for="password">Password :</label> <br>
+                <input type="password" id="password" name="password" class="" placeholder="Password"><br><br>
+
+                <label for="Confirm-password">Confirm Password:</label> <br>
+                <input type="password" id="cf-pass" name="cf-pass" class="" placeholder="Confirm password"> <br><br>
+
+                <label for="Gender">Gender</label><br>
+                <input type="radio" id="Male" name="gender">
+                <label for="radio">Male</label><br>
+
+                <input type="radio" id="female" name="gender">
+                <label for="female"> Female</label>
+                <br><br>
+
+                <input type="checkbox" name="agree" id="agree">
+                <label for="terms">Agree to terms and conditions</label><br><br>
+
+                <label for="Dob"> Date Of Birth</label>
+                <input type="date" name="dob" id="dob"> <br><br>
+
+
+                <input type="submit" value="Register" class="subimt">
+                
+            </Form>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="/Registration.js"></script>
+</html>

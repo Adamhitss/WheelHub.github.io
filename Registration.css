@@ -1,0 +1,147 @@
+body{
+    background-image: url(/Assets/joinUsSectionBaner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 90px;
+    padding-left: 250px;
+    width: 1440px;
+    
+}
+
+.dlm{
+
+    margin-bottom: 200px;
+    margin-top: 100px;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+
+.Form-1{
+    display: flex;
+    width: 800px;
+    height: 700px;
+    justify-content: center;
+    background-color: beige;
+    border-radius: 20px;
+    max-width: 400px;
+    max-height: 600px;
+    margin-left: 175px;
+  
+}
+
+
+
+.subimt{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    background-color: hsla(167, 96%, 80%, 0.525);
+    width: 100px;
+
+}
+
+.subimt:hover{
+    background-color: hsla(168, 28%, 50%, 0.525);
+}
+
+.mm{
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+margin-right: 100px;
+margin-left: 130px;
+}
+
+.hehe{
+    margin: 0;
+    width: 400px;
+}
+
+
+.loogo{
+    width: 200px;
+    margin-left: 200px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(156, 129, 94);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.ni{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.logoo{
+    width: 150px;
+}
+
+.ni:hover{
+    background-color: rgb(95, 71, 40);
+    border-radius: 20px;
+}
+
+.navbar-link{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transform: scaleY(1);
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-menu{
+    position: absolute;
+    background-color: rgb(196, 143, 75);
+    border: #000000 1px solid;
+    transform:scaleY(0);
+    transition: transform 300ms;
+    transform-origin: top;
+    right: 0;
+    display: block;
+    flex-direction: column;
+    
+}
+.arro{
+    width: 10px;
+}
+.dropdown-link:hover{
+    background-color: rgb(245, 182, 161);
+}
+
+.dropdown-link{
+    display: block;
+    padding: 0,5;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+
+}
+
+.dropdown-item{
+    width: 140px;
+    height: 50px;
+}

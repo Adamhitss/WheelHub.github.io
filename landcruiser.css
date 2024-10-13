@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    background-color: #695f57;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.Bn{
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.namamobil{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fotomobil{
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.jelasinmobil{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.hargamobil{
+    color: rgb(232, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+
+}
+
+/* footer */
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e4e1d9;
+    text-align: center;
+}
+
+.footersosmed{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.namasosmed{
+    text-align: center;
+    padding: 5px;
+    font-size: xx-small;
+}
+
+.footerpalingbawah{
+    padding-left: 80px;
+    padding-right: 80px;
+}
